@@ -16,14 +16,11 @@ Este é um projeto de gerenciamento de eventos desenvolvido em Laravel. A aplica
 
 
 <h1>Funcionalidades Principais</h1>
-<li><b>Autenticação de Usuários:</b></li>Usuários podem se registrar, fazer login e acessar o sistema. Apenas usuários autenticados podem gerenciar eventos.
-<li><b>Cadastro de Eventos:</b></li>Permite adicionar novos eventos com informações como título, descrição, local, data e hora.
-
-<li><b>Edição de Eventos:</b></li>Possibilidade de atualizar os detalhes de eventos já cadastrados.
-<li><b>Exclusão de Eventos</b></li>Remoção de eventos cadastrados do sistema.
-
-
-<li><b>Confirmação de Presença</b></li>Os usuários podem confirmar presença nos eventos, permitindo maior controle dos participantes.
+<li><b>Autenticação de Usuários:</b>Usuários podem se registrar, fazer login e acessar o sistema. Apenas usuários autenticados podem gerenciar eventos.</li>
+<li><b>Cadastro de Eventos:</b>Permite adicionar novos eventos com informações como título, descrição, local, data e hora.</li>
+<li><b>Edição de Eventos:</b>Possibilidade de atualizar os detalhes de eventos já cadastrados.</li>
+<li><b>Exclusão de Eventos:</b>Remoção de eventos cadastrados do sistema.</li>
+<li><b>Confirmação de Presença:</b>Os usuários podem confirmar presença nos eventos, permitindo maior controle dos participantes.</li>
 
 
 
