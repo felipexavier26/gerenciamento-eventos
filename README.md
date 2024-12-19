@@ -21,9 +21,6 @@ Este é um projeto de gerenciamento de eventos desenvolvido em Laravel. A aplica
 <li><b>Edição de Eventos:</b>Possibilidade de atualizar os detalhes de eventos já cadastrados.</li>
 <li><b>Exclusão de Eventos:</b>Remoção de eventos cadastrados do sistema.</li>
 <li><b>Confirmação de Presença:</b>Os usuários podem confirmar presença nos eventos, permitindo maior controle dos participantes.</li>
-
-
-
 <br>
 
 <h1>Tecnologias Utilizadas</h1>
@@ -32,11 +29,57 @@ Este é um projeto de gerenciamento de eventos desenvolvido em Laravel. A aplica
 <li><strong>Bootstrap: </strong>Framework CSS para design responsivo.</li>
 <li><strong>Blade: </strong>Motor de templates do Laravel.</li>
 
-
-
-
 <h1>Instruções de Instalação e Execução</h1>
 <li><strong>PHP: </strong> >= 8.0</li>
 <li><strong>Composer:</strong> Para gerenciar as dependências do Laravel</li>
 <li><strong>Node.js e npm:</strong> Para o frontend React</li>
 <li><strong>Banco de Dados: </strong> Configurado e acessível MySQL</li>
+
+
+
+1. **Clone o repositório:**
+   ```bash
+     git clone https://github.com/seu-usuario/gerenciamento-eventos.git
+    cd gerenciamento-eventos
+
+2. **Instale as Dependências:**
+   ```bash
+     composer install
+
+
+3. **Configure o Arquivo .env**
+   ```bash
+   cp .env.example .env
+
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=gerenciamento_eventos
+    DB_USERNAME=root
+    DB_PASSWORD=
+ 
+
+4. **Gere a Chave da Aplicação:**
+   ```bash
+   php artisan key:generate
+
+5. **Crie o Banco de Dados**
+   ```bash
+    npm install
+    npm run dev
+
+6. **Rode as Migrações**<br>
+    ```bash    
+    php artisan migrate
+
+
+7. **Instale as Dependências do Frontend:**<br>
+    ```bash    
+   npm install
+    npm run dev
+
+    
+8. **Inicie o Servidor**
+   ```bash
+    php artisan serve
+
