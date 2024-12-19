@@ -29,7 +29,7 @@ Este é um projeto de gerenciamento de eventos desenvolvido em Laravel. A aplica
 <h1>Tecnologias Utilizadas</h1>
 <li><strong>Laravel: </strong> Framework PHP utilizado para construir o backend e a API RESTful.</li>
 <li><strong>PHP</strong> >= 8.0.</li>
-<li><strong>CSS: </strong>Utilizado para exibição de alertas e notificações modais, oferecendo feedback elegante aos usuários.</li>
+<li><strong>Bootstrap: </strong>Framework CSS para design responsivo.</li>
 <li><strong>Blade: </strong>Motor de templates do Laravel.</li>
 
 
