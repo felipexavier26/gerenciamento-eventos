@@ -39,7 +39,7 @@ Este é um projeto de gerenciamento de eventos desenvolvido em Laravel. A aplica
 
 1. **Clone o repositório:**
    ```bash
-     git clone https://github.com/seu-usuario/gerenciamento-eventos.git
+     git clone https://github.com/felipexavier26/gerenciamento-eventos.git
     cd gerenciamento-eventos
 
 2. **Instale as Dependências:**
