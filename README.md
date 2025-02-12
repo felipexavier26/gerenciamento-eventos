@@ -79,3 +79,9 @@ Este é um projeto de gerenciamento de eventos desenvolvido em Laravel. A aplica
    ```bash
     php artisan serve
 
+
+
+
+![image](https://github.com/user-attachments/assets/d12c8441-8134-4b49-8af4-9b30bca6c599)
+
+
