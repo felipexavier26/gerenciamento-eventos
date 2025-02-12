@@ -63,23 +63,19 @@ Este é um projeto de gerenciamento de eventos desenvolvido em Laravel. A aplica
    ```bash
    php artisan key:generate
 
-5. **Crie o Banco de Dados**
-   ```bash
-    npm install
-    npm run dev
 
-6. **Rode as Migrações**<br>
+5. **Rode as Migrações**<br>
     ```bash    
     php artisan migrate
 
 
-7. **Instale as Dependências do Frontend:**<br>
+6. **Instale as Dependências do Frontend:**<br>
     ```bash    
    npm install
     npm run dev
 
     
-8. **Inicie o Servidor**
+7. **Inicie o Servidor**
    ```bash
     php artisan serve
 
